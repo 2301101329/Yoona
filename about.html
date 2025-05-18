@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Yoona</title>
+  <link rel="icon" href="yoona.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      text-decoration: none;
+      background-color: #ffffff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      color: #5928a7;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #5928a7;
+      color: #ffffff;
+    }
+
+    .back-button svg {
+      margin-right: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .back-button:hover svg {
+      transform: translateX(-4px);
+    }
+
+    .header {
+      background-color: #ffffff;
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+      border-bottom: 4px solid #5928a7;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    .header p {
+      color: #6b7280;
+      margin-top: 8px;
+    }
+
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .image-section {
+      flex: 1 1 40%;
+      min-width: 300px;
+      background-color: #e5e7eb;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .image-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .text-section {
+      flex: 1 1 60%;
+      padding: 30px;
+    }
+
+    .text-section h2 {
+      color: #5928a7;
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .text-section p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #374151;
+      margin-bottom: 20px;
+    }
+
+    .text-highlight {
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    .footer-bar {
+      text-align: center;
+      font-size: 14px;
+      color: #6b7280;
+      margin: 40px 0 20px;
+    }
+
+    .arrow {
+      margin-top: 10px;
+      width: 20px;
+      height: 20px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #5928a7;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-button">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="20" width="20" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+    </svg>
+    Return
+  </a>
+  <div class="header">
+    <h1>ABOUT <span style="color: #5928a7;">US</span></h1>
+  </div>
+
+  <div class="about-container">
+    <div class="image-section">
+      <img src="images/yon.jpg" alt="picture">
+    </div>
+    <div class="text-section">
+      <h2>About Yoona Computer Trading</h2>
+      <p>
+        At Yoona Computer Trading, we are passionate about keeping you connected and equipped with the technology you need. Based on a foundation of reliability and service, we specialize in selling high-quality computer parts, accessories, and devices — from cutting-edge components to everyday essentials.
+      </p>
+      <p>
+        But we don't just stop at sales. We also provide expert repair services for laptops, desktop computers, and even WiFi and vendo machines, ensuring your tech runs smoothly and efficiently.
+      </p>
+      <p>
+        Looking for internet services? We've got you covered. As an accredited PLDT Internet provider, we help homes and businesses get fast, stable, and affordable internet connections — no hassle, just seamless service.
+
+        Whether you're building your dream PC, fixing your trusty laptop, or getting online at home, Yoona Computer Trading is your one-stop tech destination. Visit us today and experience tech support that truly cares.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    Yoona Computer Trading
+    <div class="arrow"></div>
+  </div>
+</body>
+</html>
